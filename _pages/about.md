@@ -5,7 +5,7 @@ image: 08.jpg
 permalink: /about/
 ---
 
-We are FrenchTech company developping AI-driven solutions for investors and corporate actors. As tech enthusiasts, we like writing about machine learning and SOTA performance latest algorithms can reach. We work with a research-oriented approach and that is wht we created this blog, to share what we think can be valuable for anybody interested in machine learning and AI. We use open-source tools everyday and we wanted to bring our modest contribution for people willing to learn about this exciting field. Our company is divided into three branches :
+We are a FrenchTech company developing AI-driven solutions for investors and corporate actors. As tech enthusiasts, we like writing about machine learning and SOTA performance the latest algorithms can reach. We work with a research-oriented approach, and that is why we created this blog to share what we think can be valuable for anybody interested in machine learning and AI. We use open-source tools every day, and we wanted to bring our modest contribution for people willing to learn about this exciting field. Our company is divided into three branches :
 
 #### [Quantrack A.I](https://www.quantrack.io)
 
