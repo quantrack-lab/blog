@@ -1,9 +1,11 @@
 ---
+
 layout: post
 title:  Deep learning and Cyber-Security : Part 1/5
 date:   2020-02-10 16:05:55 +0300
 image:  wp2406516.jpg
-tags:   [Deep Learning,Computer Science, Cryptography, Code Breaking]
+tags:   [Deep-Learning,Computer-Science, Cryptography, Code Breaking]
+
 ---
 
 This is the first article of our serie : Deep learning and Cyber-Security. We will try and explain how Machine learning, Deep learning, and Artificial intelligence algorithms can intersect with cyber-security. Our question today : Can Deep learning be a good alternative for protrecting communication ?
