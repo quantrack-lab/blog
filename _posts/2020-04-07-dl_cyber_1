@@ -70,7 +70,6 @@ For their implementation, Google researchers used Tensorflow-based neural networ
 
 ![](loss.png)
 
-
 Loss functions of attacker decreases over the time and the communication is not protected. Changing Batch Size and optimizer and made the whole process insecure and the attacker able read our 16-bits message. 
 
 ## Conclusion and Opening
