@@ -78,4 +78,4 @@ Loss functions of attacker decreases over the time and the communication is not 
 No one said Adversarial cryptography would never be secure, as we poorly trained, optimized, and questioned our neural networks. However, it seems adversarial neural cryptography would need more research and test before being implemented on a large scale and be a credible alternative to AES and RSA algorithms. As pros, deep learning algorithms are, by nature, tough to interpret and explain, and this characteristic could be a helpful asset for protecting communication using neural networks.
 In our next article, we will describe the most common forms of attacks in 2019 and 2020 and see how modern deep learning algorithms -especially natural language processing tools- can be used by black-hat hackers.
 
-[Code available in this GitHub repository.]()
+[Code available in this GitHub repository.](https://github.com/quantrack/qt_blog-neural_cryptography)
