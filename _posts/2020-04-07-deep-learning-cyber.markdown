@@ -68,7 +68,7 @@ Note that we generally do not find a global minimum solution and that there may 
 
 For their implementation, Google researchers used Tensorflow-based neural network and ADA optimizier with a learning rate of 0.0008 and actually manage to protect the communication between the two agents. Their algorithm run on GPU using mini-batch size ranging from 256 to 4096 entries. Most classification problems use adaptive learning rate, making it smaller once the performance of the model reaches a plateau. Here, the goal is to secure a message of a certain length and to **learn VS an attacker**. Loss functions are designed so the intetegrity of the message is preserved and attacker does not reach better performance than a random guessing. Here are the learning curves for 20 epochs, a batch size of 512, and RMSProp(0.01) optimizer.
 
-![](/img/loss_oui.png)
+![](/img/lossfinal.png)
 
 
 Loss functions of attacker decreases over the time and the communication is not protected. Changing Batch Size and optimizer and made the whole process insecure and the attacker able read our 16-bits message.
