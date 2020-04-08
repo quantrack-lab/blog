@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Deep learning and Cyber-Security : Part 1"
 date:   2018-05-29 18:05:55 +0300
 image:  wp2406516.jpg
 tags:   [Deep-Learning,Cyber-Security,End-to-End-Encryption,Adversarial-neural-networks]
@@ -48,7 +48,7 @@ Thus, suppose Alice and Bob want to communicate securely over a public channel, 
 
 The objective of Alice and Bob is not only to both secrecy and integrity. They have to transmit to each other a fully-encrypted message that will be intelligible after decryption.
 
-![](gan_f.png)
+![](/img/gan_f.png)
 
 GAN framework can be written as a Zero-Sum Game. In this case, it means that Alice and Bob not only have to defeat a vanilla adversarial neural network but the best version of Eve after training. Alice and Bob **have to maximize the reconstruction error of Eve** and at the exact same time  **minimize the reconstruction error of Bob**. The zero-sum game optimization problem can be written as :
 
