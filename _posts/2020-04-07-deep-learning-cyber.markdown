@@ -31,7 +31,7 @@ In a word, modern encryption systems are designed around cryptographic random nu
 Before going through the implementation and the full description of our learning framework, let's refresh our minds on GANs :
 We train them using a Zero-Sum game set-up between a generator and a discriminator. The generator tries to generate data that fits the distribution of the training set in order to trick the discriminator. The discriminator distinguishes between real and synthetic data. That way we can build an accurate generative model as well as deep-learned features for classification tasks.
 
-![](/img/g.png)
+![](/img/pl.png)
 
 The discriminator looks at real samples and generated ones separately. It distinguishes whether the input comes from the generator or the actual training sample. The output $$D(X)$$ is the probability that the input $$x$$ is not synthetic,  i.e., $$P$$(class of input = real sample).
 
