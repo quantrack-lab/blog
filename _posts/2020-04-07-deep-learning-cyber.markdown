@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deep learning and Cyber-Security : Part 1"
-date:   2018-05-29 18:05:55 +0300
+date:   2020-04-07 18:05:55 +0300
 image:  wp2406516.jpg
 tags:   [Deep-Learning,Cyber-Security,End-to-End-Encryption,Adversarial-neural-networks]
 ---
