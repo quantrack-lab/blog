@@ -79,6 +79,6 @@ No one said Adversarial cryptography would never be secure, as we poorly trained
 In our next article, we will describe the most common forms of attacks in 2019 and 2020 and see how modern deep learning algorithms -especially natural language processing tools- can be used by black-hat hackers.
 
 You can find this article on [Medium](https://medium.com/@jct94/deep-learning-and-cyber-security-part-1-5-7ff4d479d56c)
-and on [Secjuice](https://secjuice.com) an amazing InfoSec blog with outstanding articles.
+and on [Secjuice](https://www.secjuice.com/) an amazing InfoSec blog with outstanding articles.
 
 [Code available in this GitHub repository.](https://github.com/quantrack/qt_blog-neural_cryptography)
