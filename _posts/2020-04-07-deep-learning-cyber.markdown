@@ -33,16 +33,16 @@ We train them using a Zero-Sum game set-up between a generator and a discriminat
 
 ![](/img/image_gan.png)
 
-The discriminator looks at real samples and generated ones separately. It distinguishes whether the input comes from the generator or the actual training sample. The output $D(X)$ is the probability that the input $x$ is not synthetic,  i.e., $P$(class of input = real sample).
+The discriminator looks at real samples and generated ones separately. It distinguishes whether the input comes from the generator or the actual training sample. The output $$D(X)$$ is the probability that the input $$x$$ is not synthetic,  i.e., $$P$$(class of input = real sample).
 
-The discriminator is trained just like a deep network classifier. If the input is real, the actual output should be $D(x)=1$, and $0$ if the sample is synthetic. Through this process, the discriminator identifies features that contribute to the real sample, and then possibly learn the more in-depth features useful for future classification using the same type of data.
+The discriminator is trained just like a deep network classifier. If the input is real, the actual output should be $D(x)=1$, and $$0$$ if the sample is synthetic. Through this process, the discriminator identifies features that contribute to the real sample, and then possibly learn the more in-depth features useful for future classification using the same type of data.
 On the other hand, we want the generator to trick the discriminator by matching exactly the training sample probabilistic distribution.
 
 Both networks are trained in alternating steps and constrain them into a zero-sum game competition to reach the optimal result. Ideally, the discriminator identifies the details that make the actual sample authentic, and the generator creates data points that the discriminator can't distinguish. The GAN model eventually converges and can produce natural-looking images or intelligible texts.
 
 ## Basic Principles of Adversarial neural cryptography
 
-Adversarial neural cryptography is built upon the same framework as classical cryptography, with two agents -here they are actually neural networks- trying to communicate securely over a public channel, and one attacker eavesdropping the communication. Note that the full algorithm uses for encryption is public and that the only secret information is the private key $K$ used for computation.
+Adversarial neural cryptography is built upon the same framework as classical cryptography, with two agents -here they are actually neural networks- trying to communicate securely over a public channel, and one attacker eavesdropping the communication. Note that the full algorithm uses for encryption is public and that the only secret information is the private key $$K$$ used for computation.
 
 Thus, suppose Alice and Bob want to communicate securely over a public channel, and Eve is an attacker eavesdropping on the communication. For symmetric encryption, we may assume Alice and Bob both have a common secret key. Eve can capture all the encrypted messages Alice sends to Bob but does not have access to the secret key.
 
