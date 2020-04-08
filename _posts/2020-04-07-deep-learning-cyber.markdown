@@ -52,15 +52,15 @@ The objective of Alice and Bob is not only to both secrecy and integrity. They h
 
 GAN framework can be written as a Zero-Sum Game. In this case, it means that Alice and Bob not only have to defeat a vanilla adversarial neural network but the best version of Eve after training. Alice and Bob **have to maximize the reconstruction error of Eve** and at the exact same time  **minimize the reconstruction error of Bob**. The zero-sum game optimization problem can be written as :
 
-$L_{AB}(θ_A,θ_B) = L_B(θ_A, θ_B) − L_E(θ_A, O_E(θ_A))$
+$$L_{AB}(θ_A,θ_B) = L_B(θ_A, θ_B) − L_E(θ_A, O_E(θ_A))$$
 
-* $L_E(θ_A, θ_E)$ is Eve's loss in reconstruction , $L_E(θ_A, O_E(θ_E))$ is the optimal reconstruction value.
+* $$L_E(θ_A, θ_E)$$ is Eve's loss in reconstruction , $$L_E(θ_A, O_E(θ_E))$$ is the optimal reconstruction value.
 
-* $L_{AB}(θ_A,θ_B)$ is the loss function for Alice and Bob.
+* $$L_{AB}(θ_A,θ_B)$$ is the loss function for Alice and Bob.
 
 This combination reflects that Alice and Bob want to minimize Bob’s reconstruction error and to maximize the reconstruction error of the “optimal Eve,” the objective of our optimization problem  is  to find :
 
-$(O_A, O_B) = argmin_{(θ_A,θ_B)}(L_{AB}(θ_A, θ_B))$
+$$(O_A, O_B) = argmin_{(θ_A,θ_B)}(L_{AB}(θ_A, θ_B))$$
 
 Note that we generally do not find a global minimum solution and that there may be several equi-optimal solutions. As for classical GAN, the training starts with random initialization. At this stage, one can argue that the learning framework and optimization problems are extremely simple. The main goals of this article and this implementation are more to give insights about possible communications between the neural network. Indeed, it seems necessary to tweak loss function to integrate a *pure-luck* scenario. Here is an example of a learning curve using Convolutional Neural Networks. The adversarial learning framework is written as Zero-Sum Game, thus it is not interesting at all to train models such as attackers are always fooled at it would be sufficient to inverse all the results to obtain an unbeatable attacker.
 
