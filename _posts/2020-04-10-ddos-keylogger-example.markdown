@@ -20,16 +20,11 @@ Here is a possible malicious NLP application. Logs are -by nature- noisy files a
 
 Word2Vec is a group of language-modeling algorithms used to produce *word-embeddings*, word-embedding is the generic name used to describe NLP-related feature learning. In other words, words, sentences, texts are unstructured data that do not have any vectorial representations we can use as an input for any treatment. A word-embedding algorithm receives a list of words in input, and give their mathematical representation in output. We can represent them as a cloud of words :
 
-<p align="center">
-  <img width="460" height="300" src="/img/vector.png">
-</p>
+![](/img/vector.png)
 
 Word2Vec takes as its input a large text corpus and vectorizes it using a shallow neural network. The output is a vocabulary with their vectorial representation. **Words with similar meanings spatially occur within close proximity**. Mathematically this is measured by cosine similarity, where total similarity is expressed as a 0-degree angle while no similarity is expressed as a 90-degree angle. During training, every word is associated with a vector using context-enhancing neural network architecture of word2vec. Consequently, the vocabulary and the visual cloud of words created by Word2Vec can be used directly to create a similarity between words. These similarities are backed by a mathematic formula using cosine similarity, and a rigorous vectorial representation, Word2Vec made a perfectly intelligible probabilistic matrix out of an unstructured list of word. Now, how can we apply it on the output of a malicious keylogging algorithm :
 
-<p align="center">
-  <img width="560" height="130" src="/img/cloud.png">
-  <em>https://capsule8.com</em>
-</p>
+![](/img/cloud.png)
 
 The first cloud of words seems to be related to authentication and password, constraining the scope of the research and making the search of credentials easier. Please note that we are only talking about *unsupervised-learning*, deep language-modeling tools, and simple similarity measures.
 
@@ -42,9 +37,7 @@ DDoS is a hacking technique to take down a site or server by flooding that site 
 
 Developing mechanisms to detect this threat is a current challenge in network security, and machine learning seems a natural candidate. The research literature is full of great articles testing unsupervised and supervised methods for mitigating this type of attack. Datasets are built using network traces and can be tricky to gather as it exists a dozen of type of DDoS attacks, such as [DNS amplification and flood, HTTP flood, ping flooding](https://www.cpomagazine.com/cyber-security/ddos-attack-glossary-top-12-attack-vectors/).
 
-<p align="center">
-  <img width="560" height="230" src="/img/ddos.jpg">
-  
+![](/img/ddos.png)
 
 For DDoS attacks, hackers use botnets and zombie computers to flood your system with request packets. With each passing year, as the malware and types of hackers keep getting advanced, the size of DDoS attacks keeps getting increasing. How can machine learning help mitigate this type of attack?
 
@@ -52,9 +45,7 @@ Network-related attacks are more suited to machine learning applications as they
 
 For our little toy-implementation, we will use KDD intrusion dataset detection. The KDD training dataset consisting of 10% of the original dataset contains approximately 494,020 single connection vectors and 41 features. Each vector is labeled as either normal or an attack, with exactly one specific attack type. Deviations from 'normal behavior,' everything that is not 'normal,' are considered attacks. Here are the possible values of ICMP-related attacks  :
 
-<p align="center">
-  <img width="500" height="50" src="/img/type.png">
-</p>
+![](/img/type.png)
 
 Note that we will use only two labels, thus won't classify exactly the type of attack it is but only try to detect any unusual network activity. We want this little implementation to be as simple as possible, so we will use Decision trees to perform classification, but what makes DDoS detection difficult for machine learning classifiers? 
 
@@ -64,9 +55,7 @@ Note that we will use only two labels, thus won't classify exactly the type of a
 
 Using a Decision-tree classifier, with a depth of only 3, we only miss 6 DDoS attacks on our test sample, which is sufficient to lead to epic lossage and obtain the following *feature importance* histogram :
 
-<p align="center">
-  <img width="400" height="200" src="/img//feature.png">
-</p>
+![](/img/feature.png)
 
 In fact, features declared as important in terms of information criterion makes a lot of sense, but could usually lead to a very biased system only able to detect the most naive DDoS attacks. A sophisticated low-bandwidth scheme or malicious usage of mobile botnets would not be efficiently mitigated. Indeed, mobile phones continuously change their connection to networks, and the combination of rate-limiting and blacklisting would no longer be sufficient. 
 
