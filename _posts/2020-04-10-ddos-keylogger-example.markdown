@@ -37,7 +37,7 @@ DDoS is a hacking technique to take down a site or server by flooding that site 
 
 Developing mechanisms to detect this threat is a current challenge in network security, and machine learning seems a natural candidate. The research literature is full of great articles testing unsupervised and supervised methods for mitigating this type of attack. Datasets are built using network traces and can be tricky to gather as it exists a dozen of type of DDoS attacks, such as [DNS amplification and flood, HTTP flood, ping flooding](https://www.cpomagazine.com/cyber-security/ddos-attack-glossary-top-12-attack-vectors/).
 
-![](/img/ddos.png)
+![](/img/ddos.jpg)
 
 For DDoS attacks, hackers use botnets and zombie computers to flood your system with request packets. With each passing year, as the malware and types of hackers keep getting advanced, the size of DDoS attacks keeps getting increasing. How can machine learning help mitigate this type of attack?
 
