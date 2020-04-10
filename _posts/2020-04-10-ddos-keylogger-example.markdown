@@ -12,7 +12,7 @@ This is the second article of our series: Deep learning and Cybersecurity. We kn
 
 ## 1. Keylogger attack: 
 
-> Keylogger is a malicious piece of code that records the key sequence and strokes of your keyboard into a log file on your own machine. These log files can contain any type of confidential information. Also known as keyboard spying, it can be either software or hardware. 
+Keylogger is a malicious piece of code that records the key sequence and strokes of your keyboard into a log file on your own machine. These log files can contain any type of confidential information. Also known as keyboard spying, it can be either software or hardware. 
 
 While software-based keyloggers target the programs installed on a computer, hardware devices target keyboards, electromagnetic emissions, smartphone sensors, and can be designed as a side-channel attack. The first keylogging side-channel attack was discovered over 50 years ago when Bell Laboratory researchers noticed an electromagnetic spike emanating from a teletype terminal. This spike, emitted upon each keypress, enabled up to 75% of plaintext communications to be recovered in field conditions. We will tackle this type of attack in a dedicated article.
 
@@ -38,14 +38,13 @@ There is no study to evaluate the use of NLP tools by black-hat hackers, but gen
    
 ## 2. Distributed Denial of Service. 
 
-> DDoS is a hacking technique to take down a site or server by flooding that site or server with a lot of traffic that the server is unable to process. The attacker floods the targeted machine with tons of requests to overwhelm the resources. Even though advanced Machine Learning techniques have been adopted for DDoS detection, the attack remains a major threat of the Internet. According to the forecast of the Cisco Visual Networking Index (VNI), DDoS incidents will reach up to 17 million in 2020. This cyber threat continues to grow, even with the development of new protection technologies. 
+DDoS is a hacking technique to take down a site or server by flooding that site or server with a lot of traffic that the server is unable to process. The attacker floods the targeted machine with tons of requests to overwhelm the resources. Even though advanced Machine Learning techniques have been adopted for DDoS detection, the attack remains a major threat of the Internet. According to the forecast of the Cisco Visual Networking Index (VNI), DDoS incidents will reach up to 17 million in 2020. This cyber threat continues to grow, even with the development of new protection technologies. 
 
 Developing mechanisms to detect this threat is a current challenge in network security, and machine learning seems a natural candidate. The research literature is full of great articles testing unsupervised and supervised methods for mitigating this type of attack. Datasets are built using network traces and can be tricky to gather as it exists a dozen of type of DDoS attacks, such as [DNS amplification and flood, HTTP flood, ping flooding](https://www.cpomagazine.com/cyber-security/ddos-attack-glossary-top-12-attack-vectors/).
 
 <p align="center">
   <img width="560" height="230" src="/img/ddos.jpg">
-  <em>DDoS Diagram</em>
-</p>
+  
 
 For DDoS attacks, hackers use botnets and zombie computers to flood your system with request packets. With each passing year, as the malware and types of hackers keep getting advanced, the size of DDoS attacks keeps getting increasing. How can machine learning help mitigate this type of attack?
 
