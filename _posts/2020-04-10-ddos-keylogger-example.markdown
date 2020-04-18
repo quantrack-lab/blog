@@ -3,7 +3,7 @@ layout: post
 title:  "Deep learning and Cyber-Security : Part 2"
 date:   2020-04-10 
 image:  11.jpg
-tags:   [Machine-learning, Classification, Cyber-security, DDoS-attack, Natural-language-processing]
+tags:   [Machine-learning, Classification, Cyber-Security, DDoS-attack, Natural-language-processing]
 ---
 
 ## Two famous cyber-attacks and possible Machine learning applications.
