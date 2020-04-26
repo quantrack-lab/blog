@@ -15,7 +15,7 @@ First lines of codes are a huge challenge for most people, and absolutely nothin
 </p>
 
 
-First, improve your skills at a few concepts then start coding your first lines. At [Quantrack Academy](quantrackacademy.io), we design tech-oriented courses for both individuals and corporates. This course aims to teach anybody without any knowledge the basics of programming using Python. It is available for free on our GitHub, and you can join our weekly online session *-in Spanish* on Wednesday by emailing us.
+First, improve your skills at a few concepts then start coding your first lines. At [Quantrack Academy](quantrackacademy.io), we design tech-oriented courses for both individuals and corporates. This course aims to teach anybody without any knowledge the basics of programming using Python. It is available for free on our GitHub, and you can join our weekly online session *-in Spanish* on Wednesday [by emailing us](info@quantrack.io).
 
 
 We cover the basics, starting from the effortless *print* statement. The course has no pre-requisites and avoids all but the most trivial mathematics. Anyone with Jupyter notebook installed can smoothly go through this course. 
