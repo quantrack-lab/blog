@@ -6,11 +6,12 @@ image:  beginner.jpeg
 tags:   [Programming, Beginners, Python-for-Beginners, Quantrack-academy]
 ---
 
-# Quantrack Python crash course
-
 You want to learn how to code, you've heard about Python programming, and you don't know where to start. While teaching yourself how to code, you can easily get lost in the massive amount of resources you can find online.  
  
-First lines of codes are a huge challenge for most people, and absolutely nothing is intuitive. Instead of focusing all your effort on learning a specific language, it's generally better to try and read about a few basic concepts such as Object-Oriented programming or algorithms.
+First lines of codes are a huge challenge for most people, and absolutely nothing is intuitive. Instead of focusing all your effort on learning a specific language, it's generally better to try and read about a few basic concepts such as Object-Oriented programming or algorithms. 
+
+![Alt Text](https://media.giphy.com/media/11kEuHSQAXXiGQ/giphy.gif)
+
 
 First, improve your skills at a few concepts then start coding your first lines. At [Quantrack Academy](quantrackacademy.io), we design tech-oriented courses for both individuals and corporates. This course aims to teach anybody without any knowledge the basics of programming using Python. It is available for free on our GitHub, and you can join our weekly online session *-in Spanish* on Wednesday by emailing us.
 
