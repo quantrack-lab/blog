@@ -69,13 +69,12 @@ or `brew install privoxy` for MacOS users
 
 * Clone the git directeory, create your virtualenv and install requirements by running the following commands :
 
-```
-git clone https://github.com/jct94/qt_blog_onion-scraper.git
-pip install virtualenv    
-virtualenv yourenv   
-source yourenv/bin/activate    
-pip install -r requirements.txt    
-```
+`git clone https://github.com/jct94/qt_blog_onion-scraper.git`
+`pip install virtualenv` 
+`virtualenv yourenv`   
+`source yourenv/bin/activate`    
+`pip install -r requirements.txt`    
+
 
 Now you are ready to start scraping, you can add hidden services in `onions.txt` file
 
