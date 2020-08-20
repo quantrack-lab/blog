@@ -1,10 +1,11 @@
- ---
-layout: post
-title:  Deep learning and Cyber-Security : Part 3/5
-date:   2020-08-20 16:05:55 +0300
-image:  asset1.jpg
-tags:   [Deep Learning, Computer Science, Scraping, Tor, DarkNet, Natural Language processinf]
 ---
+layout: post
+title:  "Quantrack Python crash course."
+date:   2020-04-26 18:05:55 +0300
+image:  beginner.jpeg
+tags:   [Deep learning,DarKnet, Scrapping]
+---
+
 
 ## Context 
 
