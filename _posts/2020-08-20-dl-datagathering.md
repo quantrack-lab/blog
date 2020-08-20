@@ -87,11 +87,11 @@ python3 scrapper.py
 
 You should get the following screen :
 
-![](screen1.png)
+![](/img/screen1.png)
 
 Choose option number 2, and press enter, your scrapping engine is now running and you should have the following output :
 
-![](screen2.png)
+![](/img/screen2.png)
 
 Note that for the purpose of the article, ´onions.txt´ file only contains one link.
 
