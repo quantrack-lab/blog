@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Quantrack Python crash course."
-date:   2020-04-26 18:05:55 +0300
-image:  asset1.jpeg
+title:  "Deep learning and Cyber-Security : Part 3/5"
+date:   2020-08-20 16:05:55 +0300
+image:  asset1.jpg
 tags:   [Deep learning,DarKnet, Scrapping]
 ---
 
