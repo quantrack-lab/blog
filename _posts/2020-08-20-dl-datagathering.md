@@ -2,7 +2,7 @@
 layout: post
 title:  "Quantrack Python crash course."
 date:   2020-04-26 18:05:55 +0300
-image:  beginner.jpeg
+image:  asset1.jpeg
 tags:   [Deep learning,DarKnet, Scrapping]
 ---
 
