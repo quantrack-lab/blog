@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Deep learning and Cyber-Security : Part 3/5"
+title:  "Deep learning and Cyber-Security : Part 3"
 date:   2020-08-20 16:05:55 +0300
 image:  asset1.jpg
 tags:   [Deep learning,DarKnet, Scrapping]
